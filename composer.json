@@ -1,0 +1,33 @@
+{
+    "name": "mrcoco/phalms-core",
+    "description": "This is a core module for Phalcon LMS (Learning Management System)",
+    "version": "0.1.0",
+    "keywords": [
+        "phalcon",
+        "framework",
+        "sample app",
+        "phalms",
+        "elearning",
+        "lms",
+        "CRUD Generator",
+        "module generator",
+        "modular"
+    ],
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "homepage": "http://www.cempakaweb.com",
+    "authors" : [
+        {
+            "name"  : "Dwi Agus Purwanto",
+            "email" : "dwiagus@cempakaweb.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+    },
+    "extra": {
+        "installer-paths": {
+            "./modules/core/": ["mrcoco/phalms-core"]
+        }
+    }
+}
