@@ -24,10 +24,5 @@
     ],
     "require": {
         "php": ">=5.5",
-    },
-    "extra": {
-        "installer-paths": {
-            "./modules/core/": ["mrcoco/phalms-core"]
-        }
     }
 }
