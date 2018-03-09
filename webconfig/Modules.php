@@ -9,7 +9,7 @@
  * @link    http://cempakaweb.com
  * @date:   2017-06-08
  * @time:   11:06:32
- * @license MIT
+ * @license BSD-3-Clause
  */
 
 namespace Modules\Webconfig;
