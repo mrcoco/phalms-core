@@ -93,17 +93,20 @@ class MenuController extends ControllerBase
     {
         $this->view->disable();
         $data = new Menu();
-         $data->name = $this->request->getPost('name');
-	 $data->url = $this->request->getPost('url');
-	 $data->parrent = $this->request->getPost('parrent');
-	 $data->sort = $this->request->getPost('sort');
-	
+        $data->name = $this->request->getPost('name');
+        $data->url = $this->request->getPost('url');
+        $data->parrent = $this->request->getPost('parrent');
+        $data->sort = $this->request->getPost('sort');
+        $msg ="";
         if($data->save()){
             $alert = "sukses";
             $msg .= "Edited Success ";
         }else{
             $alert = "error";
             $msg .= "Edited failed";
+            foreach ($data->getMessages() as $m){
+                $msg .= $m." ";
+            }
         }
         $response = new \Phalcon\Http\Response();
         $response->setContentType('application/json', 'UTF-8');

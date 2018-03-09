@@ -38,6 +38,7 @@
             </div>
             <div class="modal-body">
                 <form id="myForm" method="post" enctype="multipart/form-data">
+                    <input type="hidden" class="form-control" name="hidden_id" id="hidden_id" >
                     <div class="form-group" >
                 	<label>Name</label>
                 	<input type="text" class="form-control" name="name" id="name" >

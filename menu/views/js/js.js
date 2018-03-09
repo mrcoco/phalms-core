@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var url_path = "http://phalms.dev/menu/";
+    var url_path = "/menu/";
     var menu_grid = $("#grid-menu").bootgrid({
         ajax: true,
         url: url_path+"list",

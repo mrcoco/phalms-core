@@ -74,11 +74,11 @@ class Menu extends \Phalcon\Mvc\Model
         $this->addBehavior(
             new Timestampable(
                 [
-                    "beforeCreate" => [
+                    "beforeValidationOnCreate" => [
                         "field"  => "created",
                         "format" => "Y-m-d H:i:s",
                     ],
-                    "beforeUpdate" => [
+                    "beforeValidationUpdate" => [
                         "field"  => "updated",
                         "format" => "Y-m-d H:i:s",
                     ],
