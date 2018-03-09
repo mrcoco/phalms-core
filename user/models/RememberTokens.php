@@ -1,5 +1,5 @@
 <?php
-namespace Phalms\Models;
+namespace Modules\User\Models;
 
 use Phalcon\Mvc\Model;
 
