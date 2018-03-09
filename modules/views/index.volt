@@ -39,7 +39,7 @@
                 <form id="myForm" method="post" enctype="multipart/form-data">
                     <div class="form-group" >
                     <label>Name</label>
-                        <input type="text" class="form-control" name="hidden_id" id="hidden_id" >
+                    <input type="text" class="form-control" name="hidden_id" id="hidden_id" >
                     <input type="text" class="form-control" name="module_name" id="module_name" >
                     </div>
                     <div class="form-group" >

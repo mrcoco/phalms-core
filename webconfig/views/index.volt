@@ -38,15 +38,15 @@
             <div class="modal-body">
                 <form id="myForm" method="post" enctype="multipart/form-data">
                     <div class="form-group" >
-	<label>Name</label>
-	<input type="text" class="form-control" name="name" id="name" >
-	</div>
-	<div class="form-group" >
-	<label>Content</label>
-	<textarea class="form-control" name="content" id="content" >
-	</textarea>
-	</div>
-	
+                	<label>Name</label>
+                    <input type="hidden" class="form-control" name="hidden_id" id="hidden_id" >
+                	<input type="text" class="form-control" name="name" id="name" >
+                	</div>
+                	<div class="form-group" >
+                	<label>Content</label>
+                	<textarea class="form-control" name="content" id="content" >
+                	</textarea>
+                	</div>
                     <div class="form-group" >
                         <div class="row">
                             <div class="col-xs-4 col-xs-offset-8">

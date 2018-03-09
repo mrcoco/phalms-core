@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var url_path = "http://phalms.dev/webconfig/";
+    var url_path = "/webconfig/";
     var webconfig_grid = $("#grid-webconfig").bootgrid({
         ajax: true,
         url: url_path+"list",
